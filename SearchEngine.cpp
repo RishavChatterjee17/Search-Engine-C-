@@ -161,7 +161,7 @@ void Solutions::subSearch(int subSearchArray,int noOfWords,string searchedString
             {
                 while ( getline (soln,line) )
                 {
-                    getUrlForSolution.insert(std::pair<int,string>(++x,line)); // Assigning Number to a Line or Question !
+                    getUrlForSolution.insert(std::pair<int,string>(++x,line));
                 }
                 
             }
